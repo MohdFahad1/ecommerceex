@@ -26,9 +26,9 @@ const HeroSection = () => {
         <Animation />
       </div>
     </div>
-    <div style={{display:"flex",justifyContent:"center"}}>
+    {/* <div style={{display:"flex",justifyContent:"center"}}>
       <Banner />
-    </div>
+    </div> */}
     <Testimonials />
     </>
   )
