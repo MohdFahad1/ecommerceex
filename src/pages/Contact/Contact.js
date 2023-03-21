@@ -23,7 +23,7 @@ const Contact = () => {
       </div>
     </div>
     <div className="contact-form-wrapper">
-      <form action="" method='POST'>
+      <form action="https://formspree.io/f/mbjeagak" method='POST'>
         <div className="form-item">
           <input type="text" name="Sender" required autoComplete='off'/>
           <label>Name:</label>
