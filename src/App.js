@@ -8,6 +8,7 @@ import Cart from './pages/Cart/Cart';
 import SingleProduct from './pages/SingleProduct/SingleProduct';
 import Error from './pages/Error/Error';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/singleproduct/:id" element={<SingleProduct />} />
           <Route exact path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
