@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 2rem;
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
 }
 
 .social-icons{
@@ -33,4 +33,25 @@
     background-color: aliceblue;
     color: blueviolet;
     transition: 0.4s;
+}
+
+@media screen and (max-width:480px) {
+    .footer{
+        padding: 50px 10px 0 10px;
+    }
+    .four-column-footer{
+        grid-template-columns: auto auto;
+        gap: 0.5rem;
+        padding: 0 10px;
+    }
+    .four-column-footer h3{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .four-column-footer form input{
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
 }

@@ -13,7 +13,7 @@ const Footer = () => {
                     <h3>Subscribe to get important updates</h3>
                     <form action='https://formspree.io/f/mbjeagak'>
                     <input type='email' required autoComplete='off' placeholder='YOUR E-MAIL' name='E-Mail'/>
-                    <input type='submit' />
+                    <input type='submit' style={{ width:"70px", display:"flex", justifyContent:"center", cursor:"pointer"}}/>
                     </form>
                     </div>
                 <div>
